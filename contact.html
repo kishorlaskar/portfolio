@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Smart Portfolio</title>
+      
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style_all.css">
+    <link rel="stylesheet" href="css/responsive.css"> </head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="navbar-brand">
+                   <a href="#"><img src="image/KL.jpg" style="height: 445%;width: 102%; border-radius: 50%; margin-left: -50%;"></a>
+                </div>
+            </div>
+             <ul class="list-unstyled components">
+                <li> <a href="index.html"><i class="fa fa-university" aria-hidden="true"></i> Home</a> </li>
+                <li> <a href="about_me.html"><i class="fa fa-cogs" aria-hidden="true"></i> About Me</a> </li>
+                <li> <a href="myskill.html"><i class="fa fa-thermometer-full" aria-hidden="true"></i> Skill</a> </li>
+                <li> <a href="portfolio.html"><i class="fa fa-ravelry" aria-hidden="true"></i>Portfolio</a> </li>
+                <li> <a href="timeline.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Timeline</a> </li>
+                <li> <a href="contact.html"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact</a> </li>
+            </ul>
+        </nav>
+        <!-- Page Content Holder -->
+        <div id="content">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="navbar-btn"> <span></span> <span></span> <span></span> </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="contact-part">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="con-part">
+                                    <div class="icon"> <i class="fa fa-phone-square" aria-hidden="true"></i> </div>
+                                    <div class="phone-details">
+                                        <h4>My Phone</h4>
+                                        <p>01768685475</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="con-part">
+                                    <div class="icon"> <i class="fa fa-envelope" aria-hidden="true"></i> </div>
+                                    <div class="phone-details">
+                                        <h4>Email</h4>
+                                        <p>rkdiu95@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con-part">
+                            <div class="icon"> <i class="fa fa-map-marker" aria-hidden="true"></i> </div>
+                            <div class="phone-details">
+                                <h4>Loacation</h4>
+                                <p>2/7 D-Block,Mirpur-1,Dhaka,Bangladesh</p>
+                            </div>
+                            <p>If you have a great plane in mind and are looking for some professional, determined  people to work with, then Knock Me Email Or Social Site. I’ ll response back to you very soon to discuss your project plane  and provide you  a custom proposal.</p>
+                        </div>
+                        <div class="con-part"> <a href="https://www.facebook.com/profile.php?id=100008885592457"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                              
+                               <a href="https://www.linkedin.com/in/kishor-laskar-721428144/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                               
+                                <a href="https://www.youtube.com/channel/UCdUUFEnsc04uAvdIQvf1gmg/videos?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="#">You Knock Me Also Social Site </a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
