@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title>Smart Portfolio</title>
+    <title>Smart Portfolio</title>
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -14,215 +14,144 @@
     <link rel="stylesheet" href="css/responsive.css"> </head>
 
 <body>
-    <div class="wrapper">
-        <!-- Sidebar Holder -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <div class="navbar-brand">
-                 <a href="#"><img src="image/KL.jpg" style="height: 445%;width: 102%; border-radius: 50%; margin-left: -50%;"></a>
+<div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <div class="navbar-brand">
+                <a href="#"><img src="image/KL.jpg" style="height: 445%;width: 102%; border-radius: 50%; margin-left: -50%;"></a>
+            </div>
+        </div>
+        <ul class="list-unstyled components">
+            <li> <a href="index.html"><i class="fa fa-university" aria-hidden="true"></i> Home</a> </li>
+            <li> <a href="about_me.html"><i class="fa fa-cogs" aria-hidden="true"></i> About Me</a> </li>
+            <li> <a href="myskill.html"><i class="fa fa-thermometer-full" aria-hidden="true"></i> Skill</a> </li>
+            <li> <a href="portfolio.html"><i class="fa fa-ravelry" aria-hidden="true"></i>Portfolio</a> </li>
+            <li> <a href="timeline.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Timeline</a> </li>
+            <li> <a href="contact.html"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact</a> </li>
+        </ul>
+    </nav>
+    <!-- Page Content Holder -->
+    <div id="content">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" id="sidebarCollapse" class="navbar-btn"> <span></span> <span></span> <span></span> </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" class="text-danger">Here Are My  Projects Links Which Code Is Done By Me</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
                 </div>
             </div>
-            <ul class="list-unstyled components">
-                <li> <a href="index.html"><i class="fa fa-university" aria-hidden="true"></i> Home</a> </li>
-                <li> <a href="about_me.html"><i class="fa fa-cogs" aria-hidden="true"></i> About Me</a> </li>
-                <li> <a href="myskill.html"><i class="fa fa-thermometer-full" aria-hidden="true"></i> Skill</a> </li>
-                <li> <a href="portfolio.html"><i class="fa fa-ravelry" aria-hidden="true"></i>Portfolio</a> </li>
-                <li> <a href="timeline.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Timeline</a> </li>
-                <li> <a href="contact.html"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact</a> </li>
-            </ul>
         </nav>
-        <!-- Page Content Holder -->
-        <div id="content">
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" id="sidebarCollapse" class="navbar-btn"> <span></span> <span></span> <span></span> </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#" class="text-danger">Here Are My  Projects Links Which Code Is Done By Me</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="portfolio">
-             <h2 class="title"><i class="fa fa-user" aria-hidden="true"></i>My Project Work Demo</h2>
-                <hr> 
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/inventory.jpg" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>Basic Inventory System</h4>
-                         <a class="btn btn-primary" href="http://basicinventory.shunnosoft.com/login" target="_blank">Visit Website</a>
-                    
-                        </div> 
-                        
-                   </div>
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/watchvalley.jpg" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>Watch Valley- An Online E-commarce site for watches</h4>
-                         <a class="btn btn-primary" href="https://github.com/kishorlaskar/watch-valley" target="_blank">Github Preview</a>
-                        <a class="btn btn-success"   href="https://youtu.be/tH_BTI5W7vo" target="_blank">Video</a> -->
-                        </div> 
-                        
-                   </div>
-                   <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/medicare.jpg" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>Medi Care - An Online pharamacetical app.</h4>
-                         <a class="btn btn-primary" href="https://github.com/kishorlaskar/Medi-Care" target="_blank">Github Preview</a>
-                        <a class="btn btn-success"   href="https://youtu.be/9CyNw5QNpFQ" target="_blank">Video</a>
-                        </div> 
-                        
-                   </div>
-                   <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/bigstore.jpg" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>BigStore - An E-commarce Site with Laravel and Vue Js.</h4>
-                         <a class="btn btn-primary" href="https://github.com/kishorlaskar/watch-valley" target="_blank">Github Preview</a>
-                        <a class="btn btn-success"   href="https://youtu.be/_T745goI6y8" target="_blank">Video</a> -->
-                        </div> 
-                        
-                   </div>
-<!--                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/fruiteslash.jpg" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>Fruite Slash Game Using Javascript</h4>
-                         <a class="btn btn-primary" href="https://kishorlaskar.github.io/Fruite-Slash/" target="_blank">Github Preview</a>
-                        <!-- <a class="btn btn-success"   href="https://www.youtube.com/watch?v=wLsdxsCpkvQ&feature=youtu.be" target="_blank">Video</a> --> -->
-                        </div> 
-                        
-                   </div>
-                   <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/catchegg.jpg" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>Catch the egg Game Using Javascript</h4>
-                         <a class="btn btn-primary" href="https://kishorlaskar.github.io/catch_the_eggs/" target="_blank">Github Preview</a>
-                        <!-- <a class="btn btn-success"   href="https://www.youtube.com/watch?v=wLsdxsCpkvQ&feature=youtu.be" target="_blank">Video</a> --> -->
-                        </div> 
-                        
-                   </div>
-                   <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/sototaelectonic.png" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>MUsic App With Vue Js</h4>
-                         <a class="btn btn-primary" href="https://github.com/kishorlaskar/musicapp" target="_blank">Github Preview</a>
-                         <a class="btn btn-success"   href="https://youtu.be/0T-F9B90NBI" target="_blank">Video</a> --> -->
-                        </div> 
-                        
-                   </div> -->
-<!--                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/sotota.jpg" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>Sotota Electronics.com:A professional e-commarce site for electonic products.</h4>
-                         <a class="btn btn-primary" href="http://sototaelectronics.shunnosoft.com/" target="_blank">Preview</a>
-                           <!-- <a class="btn btn-success"   href="https://www.youtube.com/watch?v=wLsdxsCpkvQ&feature=youtu.be" target="_blank">Video</a> -->
-                        </div> 
-                        
-                   </div> -->
-                   <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                    <img src="image/protfolioimg/jobsfinder.png" class="img-responsive">
-                       <div class="overlay text-center">
-                           <h4>Jobs finder: A new approach for finding jobs based on web application</h4>
-                         <a class="btn btn-primary" href="http://jobsfinder.shunnosoft.com/" target="_blank">Preview</a>
-                           <a class="btn btn-success" href="https://www.youtube.com/watch?v=HTagd83rF0Y" target="_blank">Video</a>
-                        </div> 
-                        
-                   </div>  
-                  <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                     <img src="image/protfolioimg/onetech.jpg" class="img-responsive">
-                        <div class="overlay text-center">
-                            <h4>OneTech - A professional E-commarce site.</h4>
-                          <a class="btn btn-primary" href="http://onetech.shunnosoft.com/" target="_blank">Preview</a>
-<!--                             <a class="btn btn-success"   href="https://www.youtube.com/watch?v=wLsdxsCpkvQ&feature=youtu.be" target="_blank">Video</a> -->
-                         </div> 
-                         
-                    </div>  
-                     <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ">
-                        <a href="" target="_blank">
-                     <img src="image/protfolioimg/medical.png" class="img-responsive">
-                        <div class="overlay text-center">
-                            <h4>An Smart E-Health System</h4>
-                            <a class="btn btn-primary" href="http://medical.shunnosoft.com/" target="_blank">Preview</a>
-                             <a class="btn btn-success" href="https://www.youtube.com/watch?v=HTagd83rF0Y" target="_blank">Video</a>
-                            </div></a>
-                    </div>
-                <div class="row">
-                      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ">
-                        <a href="http://varabari.abdullahelkafi.com/" target="_blank">
-                     <img src="image/protfolioimg/varabari.png" class="img-responsive">
-                        <div class="overlay text-center">
-                            <h4>Varabari.com</h4>
-                        </div>
-                       </a>
-                    </div>
-                         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ">
-                        <a href="https://github.com/kishorlaskar/Blog-Boost" target="_blank">
-                     <img src="image/protfolioimg/blog.png" class="img-responsive">
-                        <div class="overlay text-center">
-                            <h4>BlogBost: A Blog site with laravel and vue js.</h4>
-                        </div>
-                       </a>
-                    </div>
-                      <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                     <a href="http://smartattendance.shunnosoft.com" target="_blank">
-                     <img src="image/protfolioimg/smart_attendance.png" class="img-responsive">
-                        <div class="overlay text-center">
-                            <h4>Smart Attendance System</h4> </div> </a>
-                    </div> 
-                   
-                    
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ">
-                        <a href="https://github.com/kishorlaskar/Online_mudighor" target="_blank">
-                     <img src="image/protfolioimg/GroceryShop.png" class="img-responsive">
-                        <div class="overlay text-center">
-                            <h4>Grocery Shop</h4>
-                            <p>Live Project</p> </div></a>
-                    </div>
-                    
-                   
-                    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
-                     <a href="https://github.com/kishorlaskar/Student-Managment-System" target="_blank">
-                     <img src="image/protfolioimg/studentenrollment.png" class="img-responsive">
-                        <div class="overlay text-center">
-                            <h4>Student Enrollment System</h4> </div> </a>
-                    </div> 
-
-                  
-
-                   
-                    
-                  
-                    
+        <div class="portfolio">
+            <h2 class="title"><i class="fa fa-user" aria-hidden="true"></i>My Project Work Demo</h2>
+            <hr>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+                <img src="image/protfolioimg/inventory.jpg" class="img-responsive">
+                <div class="overlay text-center">
+                    <h4>Basic Inventory System</h4>
+                    <a class="btn btn-primary" href="http://basicinventory.shunnosoft.com/login" target="_blank">Visit Website</a>
                 </div>
             </div>
-            <div class="more-website">
-                <h2 class="title"><i class="fa fa-code" aria-hidden="true"></i>See More Practice Demo</h2>
-                <hr>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h1 class="ribbon">
-                <strong class="ribbon-content">
-                         <a href="https://github.com/kishorlaskar" target="_blank">
-                            <i class="fa fa-star" aria-hidden="true"></i>GitHub <i class="fa fa-eye" aria-hidden="true"></i>
-                        </a></strong>
-                    </h1> </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+                <img src="image/protfolioimg/inventory.jpg" class="img-responsive">
+                <div class="overlay text-center">
+                    <h4>Basic Inventory System</h4>
+                    <a class="btn btn-primary" href="http://basicinventory.shunnosoft.com/login" target="_blank">Visit Website</a>
+                </div>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+                <img src="image/protfolioimg/bigstore.jpg" class="img-responsive">
+                <div class="overlay text-center">
+                    <h4>BigStore - An E-commarce Site with Laravel and Vue Js.</h4>
+                    <a class="btn btn-primary" href="https://github.com/kishorlaskar/watch-valley" target="_blank">Github Preview</a>
+                    <a class="btn btn-success"   href="https://youtu.be/_T745goI6y8" target="_blank">Video</a> -->
                 </div>
             </div>
         </div>
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+            <img src="image/protfolioimg/" class="img-responsive">
+            <div class="overlay text-center">
+                <h4>MUsic App With Vue Js</h4>
+                <a class="btn btn-primary" href="https://github.com/kishorlaskar/musicapp" target="_blank">Github Preview</a>
+                <a class="btn btn-success"   href="https://youtu.be/0T-F9B90NBI" target="_blank">Video</a> --> -->
+            </div>
+        </div>
+        <!--                 <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+                            <img src="image/protfolioimg/sotota.jpg" class="img-responsive">
+                               <div class="overlay text-center">
+                                   <h4>Sotota Electronics.com:A professional e-commarce site for electonic products.</h4>
+                                 <a class="btn btn-primary" href="http://sototaelectronics.shunnosoft.com/" target="_blank">Preview</a>
+                                   <!-- <a class="btn btn-success"   href="https://www.youtube.com/watch?v=wLsdxsCpkvQ&feature=youtu.be" target="_blank">Video</a> -->
+<!--    </div>-->
+
+<!--</div> -->-->
+<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+    <img src="image/protfolioimg/jobsfinder.png" class="img-responsive">
+    <div class="overlay text-center">
+        <h4>Jobs finder: A new approach for finding jobs based on web application</h4>
+        <a class="btn btn-primary" href="http://jobsfinder.shunnosoft.com/" target="_blank">Preview</a>
+        <a class="btn btn-success" href="https://www.youtube.com/watch?v=HTagd83rF0Y" target="_blank">Video</a>
     </div>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-                $(this).toggleClass('active');
-            });
+
+</div>
+<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter">
+    <img src="image/protfolioimg/onetech.jpg" class="img-responsive">
+    <div class="overlay text-center">
+        <h4>OneTech - A professional E-commarce site.</h4>
+        <a class="btn btn-primary" href="http://onetech.shunnosoft.com/" target="_blank">Preview</a>
+        <!--                             <a class="btn btn-success"   href="https://www.youtube.com/watch?v=wLsdxsCpkvQ&feature=youtu.be" target="_blank">Video</a> -->
+    </div>
+</div>
+<div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ">
+    <a href="" target="_blank">
+        <img src="image/protfolioimg/medical.png" class="img-responsive">
+        <div class="overlay text-center">
+            <h4>An Smart E-Health System</h4>
+            <a class="btn btn-primary" href="http://medical.shunnosoft.com/" target="_blank">Preview</a>
+            <a class="btn btn-success" href="https://www.youtube.com/watch?v=HTagd83rF0Y" target="_blank">Video</a>
+        </div></a>
+</div>
+<div class="row">
+    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ">
+        <a href="https://github.com/kishorlaskar/Blog-Boost" target="_blank">
+            <img src="image/protfolioimg/blog.png" class="img-responsive">
+            <div class="overlay text-center">
+                <h4>BlogBost: A Blog site with laravel and vue js.</h4>
+            </div>
+        </a>
+    </div>
+</div>
+</div>
+<div class="more-website">
+    <h2 class="title"><i class="fa fa-code" aria-hidden="true"></i>See More Practice Demo</h2>
+    <hr>
+    <div class="row">
+        <div class="col-md-4">
+            <h1 class="ribbon">
+                <strong class="ribbon-content">
+                    <a href="https://github.com/kishorlaskar" target="_blank">
+                        <i class="fa fa-star" aria-hidden="true"></i>GitHub <i class="fa fa-eye" aria-hidden="true"></i>
+                    </a></strong>
+            </h1> </div>
+    </div>
+</div>
+</div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+            $(this).toggleClass('active');
         });
-    </script>
+    });
+</script>
 </body>
 
 </html>
